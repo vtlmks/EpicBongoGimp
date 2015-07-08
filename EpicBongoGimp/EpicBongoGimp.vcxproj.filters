@@ -26,5 +26,8 @@
     <ClInclude Include="gl_core_3_3.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="CWU_player-spaceship.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
