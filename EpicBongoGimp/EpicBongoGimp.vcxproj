@@ -66,20 +66,20 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>D:\Projects\EpicBongoGimp\external\SDL2-2.0.3\include;D:\Projects\EpicBongoGimp\external\glm-0.9.6.3;$(IncludePath)</IncludePath>
-    <LibraryPath>D:\Projects\EpicBongoGimp\external\SDL2-2.0.3\lib\x86;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(SolutionDir)external\SDL2-2.0.3\include;$(SolutionDir)external\glm-0.9.6.3;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)external\SDL2-2.0.3\lib\x86;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <IncludePath>D:\Projects\EpicBongoGimp\external\SDL2-2.0.3\include;D:\Projects\EpicBongoGimp\external\glm-0.9.6.3;$(IncludePath)</IncludePath>
-    <LibraryPath>D:\Projects\EpicBongoGimp\external\SDL2-2.0.3\lib\x86;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(SolutionDir)external\SDL2-2.0.3\include;$(SolutionDir)external\glm-0.9.6.3;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)external\SDL2-2.0.3\lib\x86;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>D:\Projects\EpicBongoGimp\external\SDL2-2.0.3\include;D:\Projects\EpicBongoGimp\external\glm-0.9.6.3;$(IncludePath)</IncludePath>
-    <LibraryPath>D:\Projects\EpicBongoGimp\external\SDL2-2.0.3\lib\x64;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(SolutionDir)external\SDL2-2.0.3\include;$(SolutionDir)external\glm-0.9.6.3;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)external\SDL2-2.0.3\lib\x64;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <IncludePath>D:\Projects\EpicBongoGimp\external\SDL2-2.0.3\include;D:\Projects\EpicBongoGimp\external\glm-0.9.6.3;$(IncludePath)</IncludePath>
-    <LibraryPath>D:\Projects\EpicBongoGimp\external\SDL2-2.0.3\lib\x64;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(SolutionDir)external\SDL2-2.0.3\include;$(SolutionDir)external\glm-0.9.6.3;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)external\SDL2-2.0.3\lib\x64;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
